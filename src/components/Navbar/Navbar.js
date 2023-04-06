@@ -6,7 +6,7 @@ import './Navbar.css';
 function NavBar() {
 
   function handleMove() {
-    let move = document.getElementById("myTopnav");
+    const move = document.getElementById("myTopnav");
     if (move.className === "topnav") {
       move.className += " responsive";
     } else {
